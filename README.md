@@ -1,10 +1,12 @@
 # Awesome MySQL
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 A hand-picked collection of mature, useful, and actively valuable tools for working with MySQL and MySQL-compatible databases.
 
 This list focuses on practical software: clients, monitoring tools, backup utilities, schema migration systems, high-availability components, proxies, security tools, connectors, and operational toolkits.
 
-> Curated by [TableAI](https://tableai.org/) team
+> Maintained by the [TableAI](https://tableai.org) team.
 
 ## Contents
 
@@ -149,3 +151,16 @@ General-purpose libraries, command-line tools, and operational utilities for MyS
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) - Go library for working with the MySQL protocol, replication streams, binlogs, and related internals.
 - [Percona Toolkit](https://github.com/percona/percona-toolkit) - Essential collection of advanced command-line tools for MySQL administration, diagnostics, cleanup, and maintenance.
 - [sql-splitter](https://github.com/HelgeSverre/sql-splitter) - Fast CLI for splitting, validating, sampling, converting, and working with large SQL dump files.
+
+## Inclusion Criteria
+
+Projects should be useful for real MySQL or MySQL-compatible database workflows.
+
+A good fit for this list usually means:
+
+- Mature enough for practical use
+- Publicly available
+- Actively useful to developers, DBAs, or data teams
+- Clearly related to MySQL, MariaDB, Percona Server, TiDB, Vitess, or MySQL-compatible tooling
+
+Small experiments, abandoned demos, thin wrappers, and purely promotional projects may be declined.
